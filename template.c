@@ -28,7 +28,7 @@ int main(int argc,char *argv[])
   int        flags = TRX_READ_X;
   t_filenm fnm[] = {
     { efTPS,  NULL,  NULL, ffREAD },   /* this is for the topology */
-    { efTRX, "-f", NULL, ffREAD }      /* and this for the trajectory */
+    { efTRX, "-f", NULL, ffREAD }      /* and this for the trajectnory */
   };
 #define NFILE asize(fnm)
   CopyRight(stderr,argv[0]);
